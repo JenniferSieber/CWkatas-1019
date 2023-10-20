@@ -23,7 +23,6 @@ console.log(XO('oOOXxx'));
 // KATA 2 7kyu
 const oddOrEven = arr => arr.reduce((ttl, cv )=> ttl + cv, 0 ) % 2 === 0 ? 'even' : 'odd';
 
-
 console.log(oddOrEven([0]));
 console.log(oddOrEven([0, 1, 4]));
 console.log(oddOrEven([0, -1, -5]));
@@ -42,7 +41,3 @@ const persistence = num => {
 console.log(persistence(39));
 console.log(persistence(999));
 console.log(persistence(4));
-
-
-
-//https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec/javascript
