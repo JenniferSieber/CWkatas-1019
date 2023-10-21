@@ -1,15 +1,15 @@
 // www.codewars.com
 // KATA 1 7kyu
 const XO  = str => {
-  let xCt = 0
-  let oCt = 0
-  const strArr = str.toLowerCase().split('')
+  let xCt = 0;
+  let oCt = 0;
+  const strArr = str.toLowerCase().split('');
   strArr.forEach(letter => {
     if (letter === 'x') {
-      xCt++
+      xCt++;
     } 
     if (letter === 'o') {
-      oCt++
+      oCt++;
     }
   })
   return (xCt === oCt || xCt === 0 && oCt === 0) ? true : false; 
